@@ -4,9 +4,8 @@ $$
         databases TEXT[];
         db        TEXT;
     BEGIN
-        IF '${flyway:timestamp} UTC'::timestamptz <= '2100-01-01 UTC'::timestamptz THEN
+        IF now() AT TIME ZONE 'UTC' <= '2100-01-01 UTC'::timestamptz THEN
             -- Temporary clause
-
             databases = ARRAY ['another_citus_database'];
         ELSE
             -- General clause

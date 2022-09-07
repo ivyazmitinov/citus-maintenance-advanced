@@ -1,0 +1,1 @@
+CREATE ROLE dzone_reader;
