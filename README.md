@@ -1,4 +1,4 @@
-# Example of the advanced Citus maintenance setup for [Dzone](https://dzone.com/) blog post
+# Example of the advanced Citus maintenance setup for [Dzone blog post](https://dzone.com/articles/advanced-maintenance-of-a-citus-cluster)
 
 Migration scripts described in the post are located in `src/main/resources/db/migration`
 
